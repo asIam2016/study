@@ -1,0 +1,6 @@
+官方安裝文檔：https://chromium.googlesource.com/chromium/src/+/HEAD/docs/windows_build_instructions.md
+
+- cmd下訪問問題
+	- set http_proxy=http://127.0.0.1:11801
+	- set https_proxy=http://127.0.0.1:11801
+	- 然後使用`curl -vvvk https://www.google.com` 測試
